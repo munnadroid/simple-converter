@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Simple Converter " />
+    
+     
+    <EditText 
+        android:id="@+id/value1" 
+		android:layout_width="120sp" 
+		android:hint="0.0" 
+		android:layout_height="wrap_content" 
+		android:inputType="number"
+
+        />
+    
+    
+    <EditText 
+        android:id="@+id/value2"
+        android:layout_width="120sp"
+        android:hint="0:0"
+        android:layout_height="wrap_content"
+        android:editable="false"
+        />
+    
+    <Button 
+        android:id="@+id/convert"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Convert"
+        
+        />
+    
+    <Button 
+        android:id="@+id/reset"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Reset"
+        />
+
+</LinearLayout>
